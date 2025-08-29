@@ -41,6 +41,201 @@ const gameData = [
         description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
         authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
     },
+    {
+        id: 4,
+        title: "疾走！スペースランナー",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "宇宙を駆け抜ける爽快アクション！",
+        link: "#",
+        genre: "アクション",
+        playtime: "約5分",
+        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+    },
+    {
+        id: 5,
+        title: "森のパズル",
+        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnailType: "video",
+        intro: "動物たちと挑む、癒やしのパズル。",
+        link: "#",
+        genre: "パズル",
+        playtime: "約10分",
+        controls: "マウスドラッグ: ブロックを移動",
+        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
+    },
+    {
+        id: 6,
+        title: "ミステリーハウス",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "洋館に隠された謎を解き明かせ！",
+        link: "#",
+        genre: "アドベンチャー",
+        playtime: "約30分",
+        controls: "マウスクリック: 調べる、移動",
+        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
+    },
+    {
+        id: 7,
+        title: "疾走！スペースランナー",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "宇宙を駆け抜ける爽快アクション！",
+        link: "#",
+        genre: "アクション",
+        playtime: "約5分",
+        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+    },
+    {
+        id: 8,
+        title: "森のパズル",
+        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnailType: "video",
+        intro: "動物たちと挑む、癒やしのパズル。",
+        link: "#",
+        genre: "パズル",
+        playtime: "約10分",
+        controls: "マウスドラッグ: ブロックを移動",
+        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
+    },
+    {
+        id: 9,
+        title: "ミステリーハウス",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "洋館に隠された謎を解き明かせ！",
+        link: "#",
+        genre: "アドベンチャー",
+        playtime: "約30分",
+        controls: "マウスクリック: 調べる、移動",
+        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
+    },
+    {
+        id: 10,
+        title: "疾走！スペースランナー",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "宇宙を駆け抜ける爽快アクション！",
+        link: "#",
+        genre: "アクション",
+        playtime: "約5分",
+        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+    },
+    {
+        id: 11,
+        title: "森のパズル",
+        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnailType: "video",
+        intro: "動物たちと挑む、癒やしのパズル。",
+        link: "#",
+        genre: "パズル",
+        playtime: "約10分",
+        controls: "マウスドラッグ: ブロックを移動",
+        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
+    },
+    {
+        id: 12,
+        title: "ミステリーハウス",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "洋館に隠された謎を解き明かせ！",
+        link: "#",
+        genre: "アドベンチャー",
+        playtime: "約30分",
+        controls: "マウスクリック: 調べる、移動",
+        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
+    },
+    {
+        id: 13,
+        title: "疾走！スペースランナー",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "宇宙を駆け抜ける爽快アクション！",
+        link: "#",
+        genre: "アクション",
+        playtime: "約5分",
+        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+    },
+    {
+        id: 14,
+        title: "森のパズル",
+        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnailType: "video",
+        intro: "動物たちと挑む、癒やしのパズル。",
+        link: "#",
+        genre: "パズル",
+        playtime: "約10分",
+        controls: "マウスドラッグ: ブロックを移動",
+        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
+    },
+    {
+        id: 15,
+        title: "ミステリーハウス",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "洋館に隠された謎を解き明かせ！",
+        link: "#",
+        genre: "アドベンチャー",
+        playtime: "約30分",
+        controls: "マウスクリック: 調べる、移動",
+        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
+    },
+    {
+        id: 16,
+        title: "疾走！スペースランナー",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "宇宙を駆け抜ける爽快アクション！",
+        link: "#",
+        genre: "アクション",
+        playtime: "約5分",
+        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+    },
+    {
+        id: 17,
+        title: "森のパズル",
+        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnailType: "video",
+        intro: "動物たちと挑む、癒やしのパズル。",
+        link: "#",
+        genre: "パズル",
+        playtime: "約10分",
+        controls: "マウスドラッグ: ブロックを移動",
+        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
+    },
+    {
+        id: 18,
+        title: "ミステリーハウス",
+        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        thumbnailType: "image",
+        intro: "洋館に隠された謎を解き明かせ！",
+        link: "#",
+        genre: "アドベンチャー",
+        playtime: "約30分",
+        controls: "マウスクリック: 調べる、移動",
+        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
+        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
+    },
     // ... ここに作品データを追加できます
 ];
 
@@ -65,7 +260,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         card.innerHTML = `
-            ${thumbnailHTML}
+            <div class="card-thumbnail-wrapper">
+                ${thumbnailHTML}
+                <div class="card-title-overlay">
+                    <p>${game.title}</p>
+                </div>
+            </div>
             <div class="card-intro">
                 <p>${game.intro}</p>
             </div>

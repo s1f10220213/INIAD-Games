@@ -29,8 +29,9 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    overflow-y: auto; /* 作品が増えた場合にスクロールできるように */
+
     max-height: 85vh;
+    overflow-y: auto;
 }
 
 .game-card {
@@ -68,6 +69,9 @@ header {
 .details-container {
     width: 60%;
     padding: 30px;
+
+    max-height: 85vh;
+    overflow-y: auto;
 }
 
 .initial-message {
@@ -76,7 +80,7 @@ header {
     color: #888;
 }
 
-.game-details.hidden {
+.hidden {
     display: none;
 }
 
