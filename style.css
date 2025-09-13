@@ -122,11 +122,11 @@ header {
 }
 
 .details-left {
-    width: 65%;
+    width: 50%;
 }
 
 .details-right {
-    width: 35%;
+    width: 50%;
 }
 
 #details-author-img {

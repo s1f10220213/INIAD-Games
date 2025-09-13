@@ -24,7 +24,7 @@ const gameData = [
         link: "https://unityroom.com/games/waybackers",
         genre: "2Dパズル",
         playtime: "約10分",
-        controls: "Unityroomに記載しています。",
+        controls: "〇通常時<br>WASD:移動<br>L:押している方向のブロックを掘る<br>K:押している間カーソルを表示<br>〇カーソル表示<br>WASD:カーソルの移動<br>L:フラグの設置",
         description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
         authorImage: "img/way_per.png"
     },
@@ -304,6 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateDetails(game) {
         // 各要素を取得
         const detailsThumbnailContainer = document.getElementById('details-thumbnail-container');
+        const title = document.getElementById('details-title');
         const gameLink = document.getElementById('game-link');
         const genre = document.getElementById('details-genre');
         const playtime = document.getElementById('details-playtime');
@@ -321,6 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
         detailsThumbnailContainer.innerHTML = thumbnailHTML;
 
         // その他の情報を設定
+        title.textContent = game.title;
         gameLink.href = game.link;
         genre.textContent = game.genre;
         playtime.textContent = game.playtime;
