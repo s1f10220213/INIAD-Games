@@ -4,29 +4,29 @@
 const gameData = [
     {
         id: 1,
-        title: "疾走！スペースランナー",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        title: "Catch Fish",
+        thumbnail: "img/catchFish_thum.png", // 画像の例
         thumbnailType: "image",
-        intro: "宇宙を駆け抜ける爽快アクション！",
-        link: "#",
-        genre: "アクション",
-        playtime: "約5分",
-        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        intro: "",
+        link: "https://unityroom.com/games/catchfishboids",
+        genre: "2Dアクション（スコアアタック）",
+        playtime: "約10分",
+        controls: "操作方法 移動：W / A / S / D <br>ダッシュ（ブースト）：Shift（スコアを消費して加速） <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
         description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
         authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
     },
     {
         id: 2,
-        title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
-        thumbnailType: "video",
-        intro: "動物たちと挑む、癒やしのパズル。",
-        link: "#",
-        genre: "パズル",
+        title: "WayBackers",
+        thumbnail: "img/way_thum.png", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnailType: "img",
+        intro: "",
+        link: "https://unityroom.com/games/waybackers",
+        genre: "2Dパズル",
         playtime: "約10分",
-        controls: "マウスドラッグ: ブロックを移動",
+        controls: "Unityroomに記載しています。",
         description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
+        authorImage: "img/way_per.png"
     },
     {
         id: 3,
