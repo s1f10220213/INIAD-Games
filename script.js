@@ -12,7 +12,7 @@ const gameData = [
         genre: "2Dアクション（スコアアタック）",
         playtime: "約10分",
         controls: "操作方法 移動：W / A / S / D <br>ダッシュ(ブースト)：Shift(スコアを消費して加速) <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
-        description: "<strong>『Catch Fish』は、群れを追いかけ魚を捕まえる2Dアクションゲームです</strong><br>トゲを避けながらスコアを稼ぎ、ラウンドの合間にショップで戦略的に強化していきます。",
+        description: "<strong>『Catch Fish』は、群れを追いかけ<br>魚を捕まえる2Dアクションゲームです</strong><br>トゲを避けながらスコアを稼ぎ、ラウンドの合間に<br>ショップで戦略的に強化していきます。",
         authorImage: "img/catchfish_per.png"
     },
     {//　Enoki
@@ -54,31 +54,31 @@ const gameData = [
         description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
         authorImage: "img/gloriosa_per.jpg"
     },
-    {
+    {//　kazupin
         id: 5,
-        title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4",
-        thumbnailType: "video",
-        intro: "動物たちと挑む、癒やしのパズル。",
-        link: "#",
-        genre: "パズル",
-        playtime: "約10分",
-        controls: "マウスドラッグ: ブロックを移動",
-        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
-    },
-    {
-        id: 6,
-        title: "ミステリーハウス",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        title: "The Darts",
+        thumbnail: "img/darts_thum.png",
         thumbnailType: "image",
+        intro: "動物たちと挑む、癒やしのパズル。",
+        link: "https://unityroom.com/games/439k_darts",
+        genre: "3Dシューティング、シミュレーション",
+        playtime: "約10分",
+        controls: "【ゲームプレイ時】<br>マウスカーソル: ダーツの照準<br>マウス左クリック: ダーツの発射<br>Rキー: 視点のリセット<br>Escキー: ポーズ（設定）画面<br>SE: 効果音の音量調整<br>Sensitivity: マウス感度の調整",
+        description: "マウスひとつでダーツを投げる、<br><strong>シンプルながらも奥深いスキルベースのゲーム。</strong>",
+        authorImage: "img/darts_per.png"
+    },
+    {//　kowa
+        id: 6,
+        title: "海底",
+        thumbnail: "img/kaitei_thum.mp4",
+        thumbnailType: "video",
         intro: "洋館に隠された謎を解き明かせ！",
-        link: "#",
-        genre: "アドベンチャー",
-        playtime: "約30分",
-        controls: "マウスクリック: 調べる、移動",
-        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
+        link: "https://unityroom.com/games/undersea",
+        genre: "3DRPG",
+        playtime: "約10分",
+        controls: "カメラ移動: マウス移動<br> UI操作: クリック<br>前,後,左,右:W,A,S,D<br>潜水,浮上:SHIFT,SPACE<br>インタラクト、インベントリ、メニュー:I, E, Escape<br><br>※一部体の不自由感を出すために独特な操作になっている場所があります。",
+        description: "<strong>海底を舞台にしたRPGです。</strong><br>分断された海から脱出し巨大で危険な生物のいる海の中から安住の地を探します。",
+        authorImage: "img/kaitei_per.png"
     },
     {
         id: 7,
@@ -131,112 +131,7 @@ const gameData = [
         controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
         description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
         authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
-    },
-    {
-        id: 11,
-        title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
-        thumbnailType: "video",
-        intro: "動物たちと挑む、癒やしのパズル。",
-        link: "#",
-        genre: "パズル",
-        playtime: "約10分",
-        controls: "マウスドラッグ: ブロックを移動",
-        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
-    },
-    {
-        id: 12,
-        title: "ミステリーハウス",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "洋館に隠された謎を解き明かせ！",
-        link: "#",
-        genre: "アドベンチャー",
-        playtime: "約30分",
-        controls: "マウスクリック: 調べる、移動",
-        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
-    },
-    {
-        id: 13,
-        title: "疾走！スペースランナー",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "宇宙を駆け抜ける爽快アクション！",
-        link: "#",
-        genre: "アクション",
-        playtime: "約5分",
-        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
-        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
-    },
-    {
-        id: 14,
-        title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
-        thumbnailType: "video",
-        intro: "動物たちと挑む、癒やしのパズル。",
-        link: "#",
-        genre: "パズル",
-        playtime: "約10分",
-        controls: "マウスドラッグ: ブロックを移動",
-        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
-    },
-    {
-        id: 15,
-        title: "ミステリーハウス",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "洋館に隠された謎を解き明かせ！",
-        link: "#",
-        genre: "アドベンチャー",
-        playtime: "約30分",
-        controls: "マウスクリック: 調べる、移動",
-        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
-    },
-    {
-        id: 16,
-        title: "疾走！スペースランナー",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "宇宙を駆け抜ける爽快アクション！",
-        link: "#",
-        genre: "アクション",
-        playtime: "約5分",
-        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
-        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
-    },
-    {
-        id: 17,
-        title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
-        thumbnailType: "video",
-        intro: "動物たちと挑む、癒やしのパズル。",
-        link: "#",
-        genre: "パズル",
-        playtime: "約10分",
-        controls: "マウスドラッグ: ブロックを移動",
-        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
-    },
-    {
-        id: 18,
-        title: "ミステリーハウス",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "洋館に隠された謎を解き明かせ！",
-        link: "#",
-        genre: "アドベンチャー",
-        playtime: "約30分",
-        controls: "マウスクリック: 調べる、移動",
-        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
-    },
-    // ... ここに作品データを追加できます
+    }
 ];
 
 
