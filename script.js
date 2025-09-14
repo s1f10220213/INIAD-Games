@@ -2,24 +2,24 @@
 // 本来はデータベースなどから取得しますが、今回はここに直接記述します。
 // パスはご自身の環境に合わせて変更してください。
 const gameData = [
-    {
+    {//　Natsuki
         id: 1,
         title: "Catch Fish",
-        thumbnail: "img/catchFish_thum.png", // 画像の例
-        thumbnailType: "image",
+        thumbnail: "img/catchfish_thum.gif", // 画像の例
+        thumbnailType: "gif",
         intro: "",
         link: "https://unityroom.com/games/catchfishboids",
         genre: "2Dアクション（スコアアタック）",
         playtime: "約10分",
-        controls: "操作方法 移動：W / A / S / D <br>ダッシュ（ブースト）：Shift（スコアを消費して加速） <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
-        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+        controls: "操作方法 移動：W / A / S / D <br>ダッシュ(ブースト)：Shift(スコアを消費して加速) <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
+        description: "『Catch Fish』は、群れを追いかけて魚を捕まえる2Dアクションゲームです。トゲを避けながらスコアを稼ぎ、ラウンドの合間にショップで戦略的に強化していきます。",
+        authorImage: "img/catchfish_per.png"
     },
-    {
+    {//　Enoki
         id: 2,
         title: "WayBackers",
-        thumbnail: "img/way_thum.png", // ★★★ご自身の動画ファイルのパスに変更してください★★★
-        thumbnailType: "img",
+        thumbnail: "img/way_thum.png",
+        thumbnailType: "image",
         intro: "",
         link: "https://unityroom.com/games/waybackers",
         genre: "2Dパズル",
@@ -28,31 +28,31 @@ const gameData = [
         description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
         authorImage: "img/way_per.png"
     },
-    {
+    {//　kirihi
         id: 3,
-        title: "ミステリーハウス",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
+        title: "NoNameMech",
+        thumbnail: "img/NoName_thum.jpg", // 画像の例
         thumbnailType: "image",
         intro: "洋館に隠された謎を解き明かせ！",
-        link: "#",
-        genre: "アドベンチャー",
+        link: "https://unityroom.com/games/as_nonamemech4",
+        genre: "3Dアクション",
         playtime: "約30分",
-        controls: "マウスクリック: 調べる、移動",
+        controls: "[コントローラー] 左スティック: 移動<br>右スティック: 旋回<br>左Shoulderボタン: ブースト<br>右Shoulderボタン: ジャンプ<br>左/右トリガー: 攻撃<br>右スティック押し込み: ロックオン<br>[キーボード&マウス]<br>WASDキー: 移動<br>マウス操作: 旋回<br>左Shiftキー: ブースト<br>Spaceキー: ジャンプ<br>左/右クリック: 攻撃<br>マウスホイールクリック: ロックオン",
         description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
-    },
+        authorImage: "img/NoName_per.png"
+    },//　松原
     {
         id: 4,
-        title: "疾走！スペースランナー",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        title: "GLORIOSA",
+        thumbnail: "img/gloriosa_thum.png", // 画像の例
         thumbnailType: "image",
         intro: "宇宙を駆け抜ける爽快アクション！",
-        link: "#",
-        genre: "アクション",
-        playtime: "約5分",
-        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        link: "https://unityroom.com/games/gloriosa",
+        genre: "3Dアクション",
+        playtime: "約10分",
+        controls: "移動：WASDキー<br>ダッシュ：Lキー<br>ジャンプ：スペースキー<br>弱攻撃：Eキー<br>強攻撃：Rキー<br>遠距離攻撃：Qキー(YP消費)<br>ターゲット取り：Tキー",
         description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+        authorImage: "img/gloriosa_per.jpg"
     },
     {
         id: 5,
@@ -254,8 +254,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let thumbnailHTML = '';
         if (game.thumbnailType === 'video') {
-            thumbnailHTML = `<video class="card-thumbnail" src="${game.thumbnail}" muted loop playsinline></video>`;
-        } else {
+        thumbnailHTML = `<video class="card-thumbnail" src="${game.thumbnail}" muted loop playsinline></video>`;
+        } else if (game.thumbnailType === 'gif') { // ★GIFタイプを追加
+            thumbnailHTML = `<img class="card-thumbnail gif-thumbnail" src="${game.thumbnail}" alt="${game.title}">`;
+        } else { // imageタイプの場合
             thumbnailHTML = `<img class="card-thumbnail" src="${game.thumbnail}" alt="${game.title}">`;
         }
 
