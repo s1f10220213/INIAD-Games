@@ -12,7 +12,7 @@ const gameData = [
         genre: "2Dアクション（スコアアタック）",
         playtime: "約10分",
         controls: "操作方法 移動：W / A / S / D <br>ダッシュ(ブースト)：Shift(スコアを消費して加速) <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
-        description: "『Catch Fish』は、群れを追いかけて魚を捕まえる2Dアクションゲームです。トゲを避けながらスコアを稼ぎ、ラウンドの合間にショップで戦略的に強化していきます。",
+        description: "<strong>『Catch Fish』は、群れを追いかけ魚を捕まえる2Dアクションゲームです</strong><br>トゲを避けながらスコアを稼ぎ、ラウンドの合間にショップで戦略的に強化していきます。",
         authorImage: "img/catchfish_per.png"
     },
     {//　Enoki
@@ -24,8 +24,8 @@ const gameData = [
         link: "https://unityroom.com/games/waybackers",
         genre: "2Dパズル",
         playtime: "約10分",
-        controls: "〇通常時<br>WASD:移動<br>L:押している方向のブロックを掘る<br>K:押している間カーソルを表示<br>〇カーソル表示<br>WASD:カーソルの移動<br>L:フラグの設置",
-        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
+        controls: "〇メニュー操作<br>W:↑<br>S:↓<br>L:決定<br><br>〇通常時<br>WASD:移動<br>L:押している方向のブロックを掘る<br>K:押している間カーソルを表示<br>〇カーソル表示中<br><br>WASD:カーソルの移動<br>L:フラグの設置",
+        description: "<strong>無限に遊べるマインスイーパ！</strong><br>推理力と集中力が試される2Dパズルゲーム。<br>さまざまなモードでスコアを競い合え！",
         authorImage: "img/way_per.png"
     },
     {//　kirihi
@@ -37,8 +37,8 @@ const gameData = [
         link: "https://unityroom.com/games/as_nonamemech4",
         genre: "3Dアクション",
         playtime: "約30分",
-        controls: "[コントローラー] 左スティック: 移動<br>右スティック: 旋回<br>左Shoulderボタン: ブースト<br>右Shoulderボタン: ジャンプ<br>左/右トリガー: 攻撃<br>右スティック押し込み: ロックオン<br>[キーボード&マウス]<br>WASDキー: 移動<br>マウス操作: 旋回<br>左Shiftキー: ブースト<br>Spaceキー: ジャンプ<br>左/右クリック: 攻撃<br>マウスホイールクリック: ロックオン",
-        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
+        controls: "＝＝＝ コントローラー(Xbox) ＝＝＝<br>左スティック: 移動<br>右スティック: 旋回<br>左Shoulderボタン: ブースト<br>右Shoulderボタン: ジャンプ<br>左/右トリガー: 攻撃<br>右スティック押し込み: ロックオン<br>Yボタン&攻撃: リロード<br><br>＝＝＝ キーボード&マウス ＝＝＝<br>WASDキー: 移動<br>マウス操作: 旋回<br>左Shiftキー: ブースト<br>Spaceキー: ジャンプ<br>左/右クリック: 攻撃<br>マウスホイールクリック: ロックオン<br>Rキー&攻撃: リロード",
+        description: "<strong>これは名もなき機体の戦闘テスト。</strong><br>シミュレーターを跳び回り、仮想空間の脅威を<br>突破する3Dメカアクション。",
         authorImage: "img/NoName_per.png"
     },//　松原
     {
@@ -57,7 +57,7 @@ const gameData = [
     {
         id: 5,
         title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
+        thumbnail: "path/to/your/video.mp4",
         thumbnailType: "video",
         intro: "動物たちと挑む、癒やしのパズル。",
         link: "#",
@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
         genre.textContent = game.genre;
         playtime.textContent = game.playtime;
         controls.innerHTML = game.controls; // <br>を反映させるためinnerHTMLを使用
-        description.textContent = game.description;
+        description.innerHTML = game.description;
         authorImg.src = game.authorImage;
 
         // 初期メッセージを隠し、詳細を表示
