@@ -11,7 +11,7 @@ const gameData = [
         link: "https://unityroom.com/games/catchfishboids",
         genre: "2Dアクション（スコアアタック）",
         playtime: "約10分",
-        controls: "操作方法 移動：W / A / S / D <br>ダッシュ(ブースト)：Shift(スコアを消費して加速) <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
+        controls: "移動：W / A / S / D <br>ダッシュ(ブースト)：Shift(スコアを消費して加速) <br>ショップ／UI 操作：マウスで選択・購入（クリック）",
         description: "<strong>『Catch Fish』は、群れを追いかけ<br>魚を捕まえる2Dアクションゲームです</strong><br>トゲを避けながらスコアを稼ぎ、ラウンドの合間に<br>ショップで戦略的に強化していきます。",
         authorImage: "img/catchfish_per.png"
     },
