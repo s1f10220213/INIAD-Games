@@ -51,7 +51,7 @@ const gameData = [
         genre: "3Dアクション",
         playtime: "約10分",
         controls: "移動：WASDキー<br>ダッシュ：Lキー<br>ジャンプ：スペースキー<br>弱攻撃：Eキー<br>強攻撃：Rキー<br>遠距離攻撃：Qキー(YP消費)<br>ターゲット取り：Tキー",
-        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        description: "<strong>妖狐のサムライ、ヨコンの戦いが今始まる——</strong><br>各ステージで現れる敵を全て倒し、最深部を目指せ！",
         authorImage: "img/gloriosa_per.jpg"
     },
     {//　kazupin
