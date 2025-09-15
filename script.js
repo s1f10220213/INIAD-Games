@@ -90,7 +90,7 @@ const gameData = [
         genre: "3Dアクション",
         playtime: "約30分",
         controls: "wasd:移動<br>左シフトキー+移動:ダッシュ移動<br>スペースキー:ジャンプ<br>マウス左クリック:攻撃<br>マウス右クリック:ガード<br>Eキー:アイテム欄の開閉",
-        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
+        description: "<strong>敵を倒しながら上に登る</strong><br>3Dアクションゲームです！",
         authorImage: "img/noinfo.png"
     },
     {
