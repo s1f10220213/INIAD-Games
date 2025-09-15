@@ -54,9 +54,8 @@ header {
     background-color: #000;
 }
 
-.card-intro {
-    padding: 10px;
-    font-size: 0.9em;
+.card-title {
+    text-align: center;
 }
 
 /* 中央の境界線 */

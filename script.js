@@ -80,57 +80,31 @@ const gameData = [
         description: "<strong>海底を舞台にしたRPGです。</strong><br>分断された海から脱出し巨大で危険な生物のいる海の中から安住の地を探します。",
         authorImage: "img/kaitei_per.png"
     },
-    {
+    {//　zinnyama
         id: 7,
-        title: "疾走！スペースランナー",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
+        title: "TOP ROAD",
+        thumbnail: "img/toproad.png", // 画像の例
         thumbnailType: "image",
         intro: "宇宙を駆け抜ける爽快アクション！",
-        link: "#",
-        genre: "アクション",
-        playtime: "約5分",
-        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
+        link: "https://unityroom.com/games/top_road",
+        genre: "3Dアクション",
+        playtime: "約30分",
+        controls: "wasd:移動<br>左シフトキー+移動:ダッシュ移動<br>スペースキー:ジャンプ<br>マウス左クリック:攻撃<br>マウス右クリック:ガード<br>Eキー:アイテム欄の開閉",
         description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+        authorImage: "img/noinfo.png"
     },
     {
         id: 8,
-        title: "森のパズル",
-        thumbnail: "path/to/your/video.mp4", // ★★★ご自身の動画ファイルのパスに変更してください★★★
-        thumbnailType: "video",
+        title: "NANOHA",
+        thumbnail: "img/nanoha.png",
+        thumbnailType: "image",
         intro: "動物たちと挑む、癒やしのパズル。",
-        link: "#",
-        genre: "パズル",
-        playtime: "約10分",
-        controls: "マウスドラッグ: ブロックを移動",
-        description: "同じ色のブロックを3つ揃えて消していく、定番のパズルゲーム。連鎖を狙って高得点を目指そう。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author2"
-    },
-    {
-        id: 9,
-        title: "ミステリーハウス",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game3+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "洋館に隠された謎を解き明かせ！",
-        link: "#",
-        genre: "アドベンチャー",
-        playtime: "約30分",
-        controls: "マウスクリック: 調べる、移動",
-        description: "あなたは探偵となり、怪しい洋館を探索します。様々なアイテムやヒントを見つけ出し、事件の真相を解き明かしてください。",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author3"
-    },
-    {
-        id: 10,
-        title: "疾走！スペースランナー",
-        thumbnail: "https://via.placeholder.com/300x200.png?text=Game1+Image", // 画像の例
-        thumbnailType: "image",
-        intro: "宇宙を駆け抜ける爽快アクション！",
-        link: "#",
-        genre: "アクション",
+        link: "https://unityroom.com/games/nanoha",
+        genre: "2Dアクション",
         playtime: "約5分",
-        controls: "矢印キー: 移動<br>スペースキー: ジャンプ",
-        description: "障害物を避けながらゴールを目指す、シンプルな横スクロールアクションゲームです。ハイスコアを目指しましょう！",
-        authorImage: "https://via.placeholder.com/200x200.png?text=Author1"
+        controls: "移動：WASD/矢印キー/コントローラー左スティック<br>攻撃：スペースキー/コントローラー右トリガー<br>（攻撃直前に入力した方向によって攻撃方向が変わります）",
+        description: "<strong>迫りくる壁を縫うようによける2Dアクション</strong><br>長く生存、ターゲットを破壊しより高いスコアを目指せ！",
+        authorImage: "img/noinfo.png"
     }
 ];
 
@@ -160,11 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="card-thumbnail-wrapper">
                 ${thumbnailHTML}
                 <div class="card-title-overlay">
-                    <p>${game.title}</p>
+                    <p class="card-title"><strong>${game.title}</strong></p>
                 </div>
-            </div>
-            <div class="card-intro">
-                <p>${game.intro}</p>
             </div>
         `;
         galleryContainer.appendChild(card);
