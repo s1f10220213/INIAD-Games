@@ -64,7 +64,7 @@ const gameData = [
         genre: "3Dシューティング、シミュレーション",
         playtime: "約10分",
         controls: "【ゲームプレイ時】<br>マウスカーソル: ダーツの照準<br>マウス左クリック: ダーツの発射<br>Rキー: 視点のリセット<br>Escキー: ポーズ（設定）画面<br>SE: 効果音の音量調整<br>Sensitivity: マウス感度の調整",
-        description: "マウスひとつでダーツを投げる、<br><strong>シンプルながらも奥深いスキルベースのゲーム。</strong>",
+        description: "マウスひとつでダーツを投げる、<br><strong>シンプルながらも奥深いスキルベースのゲーム。</strong><br><br><a href='https://soundcloud.com/439k/sets/the-darts' target='_blank'>サウンドトラックはこちら</a>",
         authorImage: "img/darts_per.png"
     },
     {//　kowa
